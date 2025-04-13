@@ -1,0 +1,23 @@
+footer, footer a, footer h6 {
+  padding-top: 2px;
+  color: var(--orange);
+}
+
+footer {
+  display: none;
+  flex-direction:row;
+  padding: 2px 20px 2px 20px;
+  border-radius: 10px;
+  background-color: var(--dark);
+  position: fixed;
+  bottom: 150px; /* Adjust this value if you want some spacing from the top */
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,39 @@
+/* styling on the nav links */
+.navbar{
+  background-color: var(--darkBlack);
+}
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+.nav-link {
+  color: var(--light) !important;
+  text-align: center;
+  font-size: 20px !important;
+}
+.navContainer {
+  align-items: end !important;
+}
+.nav-item.active, .nav-link.active{
+  /* background-image: url(/nav_tab_border.png);
+  background-size: 100%; */
+  font-size: 50px !important;
+  font-weight: 600;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-toggler {
+  color: var(--light);
+}
+.navContainer {
+  flex-direction: column !important;
+  position:fixed;
+  align-items: center;
+  top: 90px;
+  right: 0 !important;
+}
+
+.navToggle {
+  display: contents;
+  font-size: x-large;
+}

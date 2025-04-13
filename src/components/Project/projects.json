@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "AnswerSphere",
+    "image":
+      "/answersphere-screencapture-square.png",
+    "deployed": "https://answersphere.netlify.app/",
+    "github": "https://github.com/nyitrai87/answersphere"
+  },
+  {
+    "id": 2,
+    "title": "Team Profile Generator",
+    "image":
+      "/team_profile_gen.png",
+    "deployed": "",
+    "github": "https://github.com/RowanKinross/OOP_Team_Profile_Generator_RK"
+  },
+  {
+    "id": 3,
+    "title": "Earworm Extractor",
+    "image":
+      "/earworm_extractor.png",
+    "deployed": "https://rowankinross.github.io/music_searcher_web_app/",
+    "github": "https://github.com/RowanKinross/music_searcher_web_app"
+  },
+  {
+    "id": 4,
+    "title": "ReadMe Generator",
+    "image":
+      "/readme_gen_demo.png",
+    "deployed": "",
+    "github": "https://github.com/RowanKinross/readMe_generator_rkinross"
+  },
+  {
+    "id": 5,
+    "title": "Weather Dashboard",
+    "image":
+      "/rkinross_weather_dashboard_screencapture.png",
+    "deployed": "https://rowankinross.github.io/rkinross_weather_dashboard/",
+    "github": "https://github.com/RowanKinross/rkinross_weather_dashboard"
+  },
+  {
+    "id": 6,
+    "title": "Trivia Quiz",
+    "image":
+      "/web-API-code-quiz-demo.png",
+    "deployed": "https://rowankinross.github.io/web-APIs-code-quiz/",
+    "github": "https://github.com/RowanKinross/web-APIs-code-quiz"
+  }
+]

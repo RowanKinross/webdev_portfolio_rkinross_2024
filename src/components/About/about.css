@@ -1,0 +1,30 @@
+/* image container div for the decorative images */
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* main paragraph of text */
+.aboutText {
+  background-color: var(--paleTransparent);
+  border-radius: 30px;
+  color: var(--light);
+}
+.aboutMeText {
+  display: block;
+  position: relative;
+  bottom: 380px;
+}
+
+.headshot {
+  margin: 20px;
+  width: 400px;
+  border-radius: 50%;
+}
+.leaf {
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 380px;
+  right: 100px;
+}
