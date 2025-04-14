@@ -6,31 +6,44 @@
     --lightOpaque: #ffeaae80;
   --orange: #fab700;
     --orangeOpaque: #fab70033;
-  --green: #b7e09f;
+  --green: #c5d5bb;
   --dark: #214f4b;
     --darkOpaque: #214f4bd9;
-  --darkBlack: #060804;
+  --darkBlack: #010002;
 }
 
 
 /* styling on all elements */
 * {
-  font-family: monospace;
-  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  font-style: oblique;
+  /* font-family: monospace; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-style: oblique; */
   padding: 0;
   margin: 0;
-  color: (var(--light));
+  color: (var(--darkBlack));
 }
 
 h1 {
-  font-size: x-large;
+  font-size: medium;
 }
+h2 {
+  font-size: xx-large;
+  color: var(--darkBlack);
+}
+
 body {
-  background-image: url(/background_cover.png);
-  background-size: 100%;
+  background-color: var(--green);
+  background-image: url('rowan-branch-long.png');
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100vw;
 }
 .container {
   display: flex;
   justify-content: space-between;
+}
+
+.alignLeft {
+  text-align: left;
 }

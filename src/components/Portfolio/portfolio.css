@@ -1,17 +1,15 @@
 /* Styling on the card */
 .card {
-  background: var(--paleTransparent) !important;
   border-radius: 2px;
   margin: 1rem;
   margin-bottom: 100px;
-  color: var(--light) !important;
   text-align: center;
+  background: none !important;
 }
 /* card image */
 .projectImage {
   width: 100%;
   border-radius: 50%;
-  /* border: solid 2px var(--light); */
 }
 /* card text */
 .card .content ul {
@@ -19,6 +17,7 @@
 }
 .card .content ul li {
   margin-top: 18px;
+  color: var(--white) !important;
 }
 .projectLi {
   font-size: small;
@@ -26,12 +25,8 @@
 
 
 /* styling on the project gallery */
-.projectGalleryTitle {
-  padding: 10px;
-}
 .projects {
   padding-top: 100px;
-  color: var(--light);
 }
 .carouselContainer {
   display: flex;

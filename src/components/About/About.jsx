@@ -1,12 +1,18 @@
 import './about.css'
 import Headshot from '/headshot.jpg'
 import Leaf from '/leaf_drawing_draft.png'
+import Home from '../Home/Home'
 
 function About() {
   return (
     <div className='about'>
       <div className="container text-center">
         <div className='row'>
+
+          <Home></Home>
+
+
+
           <div className='p-5 aboutText'>
             <div>
               <img src={Headshot} alt="Headshot" className='headshot'/>

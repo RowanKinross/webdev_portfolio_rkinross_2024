@@ -29,7 +29,6 @@ function Portfolio() {
   return (
     <div>
     <div className="projects">
-      <h2 className="text-center projectGalleryTitle">Project Gallery</h2>
         <div className="carouselContainer">
           {getIndices().map((project, index) => (
             <div key={index} className={`card ${index === 1 ? 'centralProject' : 'sideProject hide'}`}>

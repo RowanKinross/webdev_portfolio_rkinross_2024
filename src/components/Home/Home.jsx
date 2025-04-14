@@ -5,14 +5,12 @@ function Home() {
   return (
     <div className='home'>
       <div className="container text-center">
-        <div className='row'>
-          <div className='p-5 brandStatement'>
+        <div className='brandStatement'>
               <img src={illustration} className='illustration'>
               </img>
-              <p className='statement'>
-                ~ Junior Front-End Developer, UK | Seeking opportunities in the charity & social enterprise sector
-              </p>
-          </div>
+              <div className='alignLeft'>
+                <h2 class="typingTitle">// JUNIOR FULL-STACK DEVELOPER</h2>
+              </div>
         </div>
       </div>
     </div>
