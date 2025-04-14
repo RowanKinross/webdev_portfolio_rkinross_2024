@@ -5,7 +5,7 @@ on pause, for now.
 
 ## Description
 'Rowan Kinross - Web Developer Portfolio' is a web-application project aiming to create a polished portfolio page to display a selection of my best projects and my contact details for use in a professional setting, such as job searching and networking. The aim of the project was to take what I have learned in react so far, such as react router dom for the nav-tabs and react's hooks, state setting and folder organisation, and create a web-application which both tests my understanding and works as a useful tool for my next steps in web-development. Users can easily find information about me, my skillset, my motives and brand-statement and links to my social media, email and projects. The project makes use of react (react-router, hooks, state-setting, props), html, css, bootstrap, JSON, javascript and netlify.  <br>
-https://rkinross-web-dev-portfolio.netlify.app/
+https://rowankinross.com/
   
 ## Table of Contents
 [Project Status](https://github.com/RowanKinross/rkinross_webdev_portfolio?tab=readme-ov-file#project-status) <br>
