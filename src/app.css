@@ -1,14 +1,15 @@
 /* setting colour variables used throughout */
 :root {
   /* declaring colour variables */
-  --orange: rgb(250, 183, 0);
-  --orangeOpaque: rgb(250, 183, 0, 0.2);
-  --light: #faf5e4;
-  --lightOpaque: rgba(	250,	245,	228, 0.5);
-  --green: #2b786c;
-  --dark: #004445;
-  --darkBlack: rgb(38, 38, 38);
-  --greenOpaque: rgba(43, 120, 108, 0.85);
+  --white: #FFFBEF;
+  --light: #ffeaae;
+    --lightOpaque: #ffeaae80;
+  --orange: #fab700;
+    --orangeOpaque: #fab70033;
+  --green: #b7e09f;
+  --dark: #214f4b;
+    --darkOpaque: #214f4bd9;
+  --darkBlack: #060804;
 }
 
 
