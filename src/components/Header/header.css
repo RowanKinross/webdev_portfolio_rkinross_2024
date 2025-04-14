@@ -3,7 +3,7 @@
   width: 100%;
   padding: 2%;
   position: fixed;
-  color: var(--light);
+  color: var(--darkBlack);
 }
 .headerContainer {
   display: flex;

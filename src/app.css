@@ -1,35 +1,49 @@
 /* setting colour variables used throughout */
 :root {
   /* declaring colour variables */
-  --orange: rgb(250, 183, 0);
-  --orangeOpaque: rgb(250, 183, 0, 0.2);
-  --light: #faf5e4;
-  --lightOpaque: rgba(	250,	245,	228, 0.5);
-  --green: #2b786c;
-  --dark: #004445;
-  --darkBlack: rgb(38, 38, 38);
-  --greenOpaque: rgba(43, 120, 108, 0.85);
+  --white: #FFFBEF;
+  --light: #ffeaae;
+    --lightOpaque: #ffeaae80;
+  --orange: #fab700;
+    --orangeOpaque: #fab70033;
+  --green: #c5d5bb;
+  --dark: #214f4b;
+    --darkOpaque: #214f4bd9;
+  --darkBlack: #010002;
 }
 
 
 /* styling on all elements */
 * {
-  font-family: monospace;
-  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  font-style: oblique;
+  /* font-family: monospace; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-style: oblique; */
   padding: 0;
   margin: 0;
-  color: (var(--light));
+  color: (var(--darkBlack));
 }
 
 h1 {
-  font-size: x-large;
+  font-size: medium;
 }
+h2 {
+  font-size: xx-large;
+  color: var(--darkBlack);
+}
+
 body {
-  background-image: url(/background_cover.png);
-  background-size: 100%;
+  background-color: var(--green);
+  background-image: url('rowan-branch-long.png');
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100vw;
 }
 .container {
   display: flex;
   justify-content: space-between;
+}
+
+.alignLeft {
+  text-align: left;
 }

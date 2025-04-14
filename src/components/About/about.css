@@ -6,9 +6,9 @@
 
 /* main paragraph of text */
 .aboutText {
-  background-color: var(--paleTransparent);
+/* background-color: var(--lightOpaque); */
   border-radius: 30px;
-  color: var(--light);
+  color: var(--white);
 }
 .aboutMeText {
   display: block;
