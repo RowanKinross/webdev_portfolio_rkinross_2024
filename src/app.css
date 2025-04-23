@@ -33,7 +33,7 @@ h2 {
 
 body {
   background-color: var(--green);
-  background-image: url('rowan-branch-long.png');
+  background-image: url('./rowan-branch-long.png');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;

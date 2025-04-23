@@ -9,7 +9,7 @@ function Home() {
               <img src={illustration} className='illustration'>
               </img>
               <div className='alignLeft'>
-                <h2 class="typingTitle">// JUNIOR FULL-STACK DEVELOPER</h2>
+                <h2 className="typingTitle">// JUNIOR FULL-STACK DEVELOPER</h2>
               </div>
         </div>
       </div>
