@@ -1,10 +1,10 @@
 import './home.css'
-import illustration from '/bike_drawing_draft.png'
+import illustration from '/bike_drawing.png'
 
 function Home() {
   return (
     <div className='home'>
-      <div className="container text-center">
+      <div className="imgContainer text-center">
         <div className='brandStatement'>
               <img src={illustration} className='illustration'>
               </img>

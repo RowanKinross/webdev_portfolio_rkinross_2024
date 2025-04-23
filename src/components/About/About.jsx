@@ -1,6 +1,6 @@
 import './about.css'
 import Headshot from '/headshot.jpg'
-import Leaf from '/leaf_drawing_draft.png'
+import Leaf from '/leaf_drawing.png'
 import Home from '../Home/Home'
 
 function About() {
@@ -13,11 +13,11 @@ function About() {
 
 
 
-          <div className='p-5 aboutText'>
-            <div>
+          <div className='aboutText'>
+            <div className='flexColumn'>
               <img src={Headshot} alt="Headshot" className='headshot'/>
-            </div>
               <img src={Leaf} alt="leaf decoration" className='leaf'/>
+            </div>
             <div className='px-5 aboutMeText'>
               <h2>About Me</h2>
               <br></br>
@@ -29,12 +29,6 @@ function About() {
               </p>
             </div>
           </div>
-          {/* <div className='col-sm-4'>
-            <div className='imgContainer'>
-              <img src={AboutMe}/>
-              <img src={Code} className="code"/>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

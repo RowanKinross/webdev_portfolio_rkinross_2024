@@ -1,18 +1,22 @@
-.container {
+.imgContainer {
   padding: 30px 30px 60px 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .illustration {
   display: block;
-  width: 63%;
-  padding-top: 80px;
+  margin: 150px 20px 20px 20px;
+  width: 300px;
 }
 
 .brandStatement {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 8%;
 }
+
 .statement {
   color: var(--white);
   font-size: 15px;
@@ -36,4 +40,10 @@
 
 @keyframes blink {
   50% { border-color: transparent }
+}
+
+@media (max-width: 768px) {
+  .brandStatement{
+    padding: 30% 0 30% 0;
+  }
 }
