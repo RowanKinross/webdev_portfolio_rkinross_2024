@@ -34,10 +34,9 @@ h2 {
 body {
   background-color: var(--green);
   background-image: url('rowan-branch-long.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  width: 100vw;
 }
 .container {
   display: flex;
