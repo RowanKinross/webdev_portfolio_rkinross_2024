@@ -1,8 +1,8 @@
 /* main paragraph of text */
 .aboutText {
-/* background-color: var(--lightOpaque); */
+  background-color: var(--white);
   border-radius: 30px;
-  color: var(--white);
+  color: var(--darkBlack);
 }
 .aboutMeText {
   position: relative;
@@ -11,7 +11,7 @@
 }
 
 .headshot {
-  margin: 20px;
+  margin: 100px 0px;
   width: 400px;
   border-radius: 50%;
 }

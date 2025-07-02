@@ -14,11 +14,11 @@ function About() {
 
 
           <div className='aboutText'>
-            <div className='flexColumn'>
+            <div className='flexColumn '>
               <img src={Headshot} alt="Headshot" className='headshot'/>
               <img src={Leaf} alt="leaf decoration" className='leaf'/>
             </div>
-            <div className='px-5 aboutMeText'>
+            <div className=' aboutMeText'>
               <h2>About Me</h2>
               <br></br>
               <p className='bio'>
