@@ -59,7 +59,12 @@ const Carousel = ({ projects }) => {
                   )}
                   {project.deployed && (
                     <a href={project.deployed} target="_blank" rel="noopener noreferrer" className='project-link deployed-link'>
-                      Live Demo
+                      Live Site
+                    </a>
+                  )}
+                  {project.pdf && (
+                    <a href={project.pdf} target="_blank" rel="noopener noreferrer" className='project-link pdf-link'>
+                      Logbook
                     </a>
                   )}
                 </div>

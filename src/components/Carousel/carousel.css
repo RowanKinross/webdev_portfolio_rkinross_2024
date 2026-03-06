@@ -94,25 +94,13 @@
   border: 2px solid transparent;
 }
 
-.github-link {
+.github-link, .deployed-link, .pdf-link {
   background-color: #333;
   color: var(--white);
   border-color:var(--white);
 }
 
-.github-link:hover {
-  background-color: #444;
-  border-color: #666;
-  transform: translateY(-2px);
-}
-
-.deployed-link {
-  background-color: #333;
-  color: var(--white);
-  border-color: var(--white);
-}
-
-.deployed-link:hover {
+.github-link:hover, .deployed-link:hover, .pdf-link:hover {
   background-color: #444;
   border-color: #666;
   transform: translateY(-2px);
