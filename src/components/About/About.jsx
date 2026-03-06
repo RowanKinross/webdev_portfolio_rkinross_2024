@@ -1,6 +1,6 @@
 import './about.css'
 import Headshot from '/headshot.jpg'
-import Leaf from '/leaf_drawing.png'
+import Leaf from '/leaf_drawing_dark.png'
 import Home from '../Home/Home'
 
 function About() {

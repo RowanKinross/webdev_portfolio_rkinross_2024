@@ -1,6 +1,6 @@
 /* main paragraph of text */
 .aboutText {
-  background-color: var(--white);
+  background-color: var(--whiteOpaque);
   border-radius: 30px;
   color: var(--darkBlack);
 }
@@ -22,7 +22,7 @@
 }
 .leaf {
   position: relative;
-  bottom: 290px;
+  bottom: 350px;
   right: 120px;
   margin: 20px;
   width: 300px;

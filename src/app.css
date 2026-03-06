@@ -2,6 +2,7 @@
 :root {
   /* declaring colour variables */
   --white: #FFFBEF;
+    --whiteOpaque: #fffbef80;
   --light: #ffeaae;
     --lightOpaque: #ffeaae80;
   --orange: #fab700;
