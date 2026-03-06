@@ -29,12 +29,15 @@ function Portfolio() {
   return (
     <div>
     <div className="projects">
+        <button className="prev-button buttonSpan" type="button">
+            <div className="prev-icon" aria-hidden="true" onClick={handleClickPrev}>&lt;</div>
+        </button>
         <div className="carouselContainer">
           {getIndices().map((project, index) => (
             <div key={index} className={`card ${index === 1 ? 'centralProject' : 'sideProject hide'}`}>
               <Project 
               key={project.id} 
-              title={project.title} 
+              title={project.title.toUpperCase()} 
               image={project.image}
               deployed={project.deployed} 
               github={project.github} 
@@ -42,13 +45,9 @@ function Portfolio() {
             </div>
           ))}
         </div>
-        <button className="carousel-control-prev buttonSpan" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <div className="carousel-control-prev-icon" aria-hidden="true" onClick={handleClickPrev}></div>
-            <div className="visually-hidden">Previous</div>
-        </button>
-        <button className="carousel-control-next buttonSpan" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <div className="carousel-control-next-icon" aria-hidden="true" onClick={handleClickNext}></div>
-            <div className="visually-hidden">Next</div>
+
+        <button className="next-button buttonSpan" type="button">
+            <div className="next-icon" aria-hidden="true" onClick={handleClickNext}>&gt;</div>
         </button>
       </div>
     </div>
