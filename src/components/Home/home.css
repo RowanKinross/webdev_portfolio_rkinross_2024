@@ -16,6 +16,7 @@
   align-items: center;
   padding: 8%;
   margin-top: 250px;
+  font-size: 11px;
 }
 
 .statement {
@@ -45,6 +46,26 @@
 
 @media (max-width: 768px) {
   .brandStatement{
-    padding: 30% 0 30% 0;
+    padding: 30% 0 10% 0;
+    margin-top: 0px;
+  }
+  .typingTitle {
+    font-size: 13px;
+  }
+  .headshot {
+    width: 200px;
+    margin-top: 50px;
+  }
+  .leaf {
+    bottom: 250px;
+    right: 60px;
+    margin: 20px;
+    width: 150px;
+  }
+  .aboutText {
+    margin: 5px;
+  }
+  .aboutMeText {
+    padding: 5px
   }
 }

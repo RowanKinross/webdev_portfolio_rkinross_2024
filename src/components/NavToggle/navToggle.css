@@ -6,4 +6,45 @@
   cursor: pointer;
   transition: all 0.3s ease;
   color: var(--darkBlack);
+  font-size: 1rem;
+  white-space: nowrap;
+  border-radius: 4px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navToggle:hover {
+  background-color: var(--orangeOpaque);
+  transform: translateY(-1px);
+}
+
+.navToggle:active {
+  transform: translateY(0);
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .navToggle {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    min-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navToggle {
+    padding: 5px 10px;
+    font-size: 0.85rem;
+    min-height: 36px;
+  }
+}
+
+@media (max-width: 360px) {
+  .navToggle {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    min-height: 32px;
+  }
 }

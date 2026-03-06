@@ -15,14 +15,45 @@ const Carousel = ({ projects }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const carouselRef = useRef(null);
   const [carouselTranslate, setCarouselTranslate] = useState(null);
+  const [touchStartX, setTouchStartX] = useState(0);
+  const [touchEndX, setTouchEndX] = useState(0);
+  
+  // Handle touch events for mobile swiping
+  const handleTouchStart = (e) => {
+    setTouchStartX(e.targetTouches[0].clientX);
+  };
+  
+  const handleTouchMove = (e) => {
+    setTouchEndX(e.targetTouches[0].clientX);
+  };
+  
+  const handleTouchEnd = () => {
+    if (!touchStartX || !touchEndX) return;
+    
+    const distance = touchStartX - touchEndX;
+    const isLeftSwipe = distance > 50;
+    const isRightSwipe = distance < -50;
+    
+    if (isLeftSwipe && activeIndex < projects.length - 1) {
+      setActiveIndex(activeIndex + 1);
+    }
+    if (isRightSwipe && activeIndex > 0) {
+      setActiveIndex(activeIndex - 1);
+    }
+    
+    setTouchStartX(0);
+    setTouchEndX(0);
+  };
   
   useEffect(() => {
     const updateCarouselPosition = () => {
       if (carouselRef.current) {
-        // Get card width based on screen size
+        // Get card width based on screen size (matching CSS breakpoints)
         const getCardWidth = () => {
-          if (window.innerWidth <= 480) return 280;
-          if (window.innerWidth <= 768) return 300;
+          if (window.innerWidth <= 360) return 260;
+          if (window.innerWidth <= 480) return 290;
+          if (window.innerWidth <= 768) return 320;
+          if (window.innerWidth <= 900) return 350;
           return 400;
         };
         
@@ -36,16 +67,32 @@ const Carousel = ({ projects }) => {
 
     updateCarouselPosition();
 
-    // Add resize listener
-    window.addEventListener('resize', updateCarouselPosition);
+    // Add resize listener with debouncing for better performance
+    let resizeTimer;
+    const handleResize = () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(updateCarouselPosition, 250);
+    };
     
-    return () => window.removeEventListener('resize', updateCarouselPosition);
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      clearTimeout(resizeTimer);
+    };
   }, [activeIndex]);
   
   return (
     <>
     
-      <div className="carousel" ref={carouselRef} style={{transform: `translateX(${carouselTranslate}px)`}}>
+      <div 
+        className="carousel" 
+        ref={carouselRef} 
+        style={{transform: `translateX(${carouselTranslate}px)`}}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         {projects.map((project, i) => {
           return (
             <CarouselCard key={project.id} active={activeIndex === i}>
@@ -59,7 +106,7 @@ const Carousel = ({ projects }) => {
                   )}
                   {project.deployed && (
                     <a href={project.deployed} target="_blank" rel="noopener noreferrer" className='project-link deployed-link'>
-                      Live Site
+                      Deployed
                     </a>
                   )}
                   {project.pdf && (
