@@ -1,69 +1,20 @@
-/* Styling on the card */
-.card {
-  border-radius: 2px;
-  margin: 1rem;
-  margin-bottom: 100px;
-  text-align: center;
-  background: none !important;
-  border: 0px !important;
-}
-/* card image */
-.projectImage {
-  width: 100%;
-  border-radius: 50%;
-}
-/* card text */
-.card .content ul {
-  list-style-type: none;
-  background-color: var(--whiteOpaque);
-  padding: 10px;
-  margin: 20px 0px;
-  border-radius: 5px;
-}
-.card .content ul li {
-  margin-top: 18px;
-  color: var(--darkBlack) !important;
-}
-.projectLi a {
-  font-size: small;
-  color: var(--darkBlack);
-}
-
-
-/* styling on the project gallery */
-.projects {
+.portfolio-section {
+  padding: 60px 20px;
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 30px;
-  padding-top:100px;
-}
-.carouselContainer {
-  display: flex;
-  align-items: center;
-  margin: auto;
   justify-content: center;
-  max-width: 1000px;
-}
-/* making the left and right cards smaller */
-.sideProject {
-  width: 50%;
 }
 
-/* styling on the previous and next arrows */
-.buttonSpan {
-  background: var(--whiteOpaque);
-  border: none;
-  padding: 3px;
-  border-radius: 5px;
-  color: var(--darkBlack);
-  font-weight: bold;
-  font-size: 24px;
+/* Responsive design */
+@media (max-width: 768px) {
+  .portfolio-section {
+    padding: 40px 15px;
+  }
 }
 
-
-/* hide left and right project cards at a certain screen size */
-@media only screen and (max-width: 760px) {
-  .hide {
-    display: none !important;
+@media (max-width: 480px) {
+  .portfolio-section {
+    padding: 30px 10px;
   }
 }

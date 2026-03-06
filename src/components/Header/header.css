@@ -3,9 +3,19 @@
   width: 100%;
   padding: 2%;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
   color: var(--darkBlack);
+  background: none;
+  box-sizing: border-box;
 }
+
 .headerContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }

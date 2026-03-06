@@ -1,5 +1,6 @@
 /* main paragraph of text */
 .aboutText {
+  margin: 50px;
   background-color: var(--whiteOpaque);
   border-radius: 30px;
   color: var(--darkBlack);
