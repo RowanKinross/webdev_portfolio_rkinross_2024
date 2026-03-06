@@ -44,6 +44,7 @@ const Carousel = ({ projects }) => {
   
   return (
     <>
+    
       <div className="carousel" ref={carouselRef} style={{transform: `translateX(${carouselTranslate}px)`}}>
         {projects.map((project, i) => {
           return (
@@ -86,7 +87,7 @@ const Carousel = ({ projects }) => {
           onClick={() => setActiveIndex(activeIndex - 1)}
           aria-label="Previous project"
         >
-          Prev
+          &lt;
         </button>
         <button 
           type="button" 
@@ -94,7 +95,7 @@ const Carousel = ({ projects }) => {
           onClick={() => setActiveIndex(activeIndex + 1)}
           aria-label="Next project"
         >
-          Next
+          &gt;
         </button>
       </div>
     </>

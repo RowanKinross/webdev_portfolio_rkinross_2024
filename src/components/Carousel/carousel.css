@@ -51,6 +51,7 @@
   font-weight: 700;
   transition: all 0.8s ease .3s;
   background-color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 0 5px 5px 0;
 }
 
@@ -110,18 +111,20 @@
 
 .dot {
   display: inline-block;
-  height: 6px;
-  width: 6px;
+  height: 12px;
+  width: 12px;
   border-radius: 50%;
-  border: none;
+  border: 2px solid var(--darkBlack);
   padding: 0;
   cursor: pointer;
   transition: all 0.3s ease;
+  background-color: transparent;
 }
 
 .dot:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
+  border-color: #fff;
 }
 
 .dot:not(:last-child) {
@@ -129,11 +132,13 @@
 }
 
 .dot.active {
-  background-color: #c9c9c9;
+  background-color: var(--darkBlack);
+  border-color: var(--darkBlack);
 }
 
 .dot:not(.active) {
-  background-color: #545454;
+  background-color: transparent;
+  border-color: var(--darkBlack);
 }
 
 .button-group {
@@ -153,13 +158,13 @@
 }
 
 .button-group button {
-  background-color: #060606;
-  color: #e5e5e5;
+  background-color: transparent;
+  font-size: 20px;
+  color: var(--darkBlack);
   cursor: pointer;
 }
 
 .button-group button:hover:not(:disabled) {
-  background-color: #333;
   transform: translateY(-1px);
 }
 
