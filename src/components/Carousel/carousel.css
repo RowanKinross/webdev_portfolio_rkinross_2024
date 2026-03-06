@@ -26,6 +26,17 @@
   align-items: flex-start;
 }
 
+.carousel-card-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
 .carousel-card:not(.active) .carousel-card-content {
   transform: scale(0.9);
   filter: blur(5px);
@@ -53,6 +64,8 @@
   background-color: var(--white);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 0 5px 5px 0;
+  position: relative;
+  z-index: 2;
 }
 
 .carousel-card-links {
@@ -63,6 +76,8 @@
   transition: all 0.8s ease .6s;
   padding-bottom: 20px;
   width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .carousel-card.active .carousel-card-links {
@@ -81,8 +96,8 @@
 
 .github-link {
   background-color: #333;
-  color: #fff;
-  border-color: #555;
+  color: var(--white);
+  border-color:var(--white);
 }
 
 .github-link:hover {
@@ -93,8 +108,8 @@
 
 .deployed-link {
   background-color: #333;
-  color: #fff;
-  border-color: #555;
+  color: var(--white);
+  border-color: var(--white);
 }
 
 .deployed-link:hover {
