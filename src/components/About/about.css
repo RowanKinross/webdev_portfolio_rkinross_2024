@@ -1,8 +1,8 @@
 /* main paragraph of text */
 .aboutText {
-/* background-color: var(--lightOpaque); */
+  background-color: var(--whiteOpaque);
   border-radius: 30px;
-  color: var(--white);
+  color: var(--darkBlack);
 }
 .aboutMeText {
   position: relative;
@@ -11,7 +11,7 @@
 }
 
 .headshot {
-  margin: 20px;
+  margin: 100px 0px;
   width: 400px;
   border-radius: 50%;
 }
@@ -22,7 +22,7 @@
 }
 .leaf {
   position: relative;
-  bottom: 290px;
+  bottom: 350px;
   right: 120px;
   margin: 20px;
   width: 300px;

@@ -2,9 +2,9 @@ function Project({title, image, deployed, github}) {
 
   function ifDeployed() {
       if (deployed != "") {
-        return (<a href={deployed} target="_blank"> here </a>)
+        return (<a href={deployed} target="_blank"> Deployed Page  </a>)
       } else {
-        return "n/a"
+        return ""
       }
   }
 
@@ -22,10 +22,10 @@ function Project({title, image, deployed, github}) {
             <strong>{title}</strong>
           </li>
           <li className="projectLi">
-            Deployed Page: {ifDeployed()}
+           {ifDeployed()}
           </li>
           <li className="projectLi">
-            GitHub Repository:<a href={github} target="_blank"> here</a>
+            <a href={github} target="_blank"> Repository</a>
           </li>
         </ul>
       </div>

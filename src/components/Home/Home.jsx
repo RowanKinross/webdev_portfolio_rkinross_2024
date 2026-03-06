@@ -6,11 +6,12 @@ function Home() {
     <div className='home'>
       <div className="imgContainer text-center">
         <div className='brandStatement'>
-              <img src={illustration} className='illustration'>
-              </img>
+              {/* <img src={illustration} className='illustration'>
+              </img> */}
               <div className='alignLeft'>
-                <h2 className="typingTitle">// JUNIOR FULL-STACK DEVELOPER</h2>
+                <h2 className="typingTitle">// FULL-STACK DEVELOPER & ARCHITECTURAL DESIGNER </h2>
               </div>
+              <p>Transitioning Technical Expertise into Climate Action</p>
         </div>
       </div>
     </div>

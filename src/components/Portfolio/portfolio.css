@@ -5,6 +5,7 @@
   margin-bottom: 100px;
   text-align: center;
   background: none !important;
+  border: 0px !important;
 }
 /* card image */
 .projectImage {
@@ -14,19 +15,27 @@
 /* card text */
 .card .content ul {
   list-style-type: none;
+  background-color: var(--whiteOpaque);
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
 }
 .card .content ul li {
   margin-top: 18px;
-  color: var(--white) !important;
+  color: var(--darkBlack) !important;
 }
-.projectLi {
+.projectLi a {
   font-size: small;
+  color: var(--darkBlack);
 }
 
 
 /* styling on the project gallery */
 .projects {
-  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-top:100px;
 }
 .carouselContainer {
   display: flex;
@@ -42,9 +51,13 @@
 
 /* styling on the previous and next arrows */
 .buttonSpan {
-  height: 20%;
-  top: 450px !important;
-  bottom: auto;
+  background: var(--whiteOpaque);
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+  color: var(--darkBlack);
+  font-weight: bold;
+  font-size: 24px;
 }
 
 
