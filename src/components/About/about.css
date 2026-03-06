@@ -1,5 +1,6 @@
 /* main paragraph of text */
 .aboutText {
+  margin: 50px;
   background-color: var(--whiteOpaque);
   border-radius: 30px;
   color: var(--darkBlack);
@@ -8,7 +9,9 @@
   position: relative;
   margin: 20px;
   bottom: 300px;
+  padding: 40px;
 }
+
 
 .headshot {
   margin: 100px 0px;

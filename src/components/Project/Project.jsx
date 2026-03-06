@@ -10,8 +10,8 @@ function Project({title, image, deployed, github}) {
 
 
   return (
-      <div className="content">
-      <div className="img-container projectImageContainer">
+      <div className="content" style={{ border: '2px solid red', padding: '10px', minHeight: '200px' }}>
+      <div className="img-container">
         <img className="projectImage"
           alt={title}
           src={image}
