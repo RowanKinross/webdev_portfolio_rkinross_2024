@@ -3,7 +3,7 @@
   /* declaring colour variables */
   --white: #FFFBEF;
     --whiteOpaque: #fffbef80;
-  --light: #ffeaae;
+  --light: #e2e8d5;
     --lightOpaque: #ffeaae80;
   --orange: #fab700;
     --orangeOpaque: #fab70033;
@@ -49,24 +49,10 @@ body {
   background-color: var(--green);
   background-image: url('/rowan-branch-long.png');
   background-size: 100% auto;
-  background-position: right top;
+  background-position:right 30px;
   background-repeat: no-repeat;
 }
 
-/* Responsive background image */
-@media (max-width: 768px) {
-  body {
-    background-size: 120% auto;
-    background-position: right top;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    background-size: 150% auto;
-    background-position: right top;
-  }
-}
 
 .container {
   display: flex;
@@ -75,12 +61,14 @@ body {
   max-width: 100%;
 }
 
-.alignLeft {
-  text-align: left;
-}
 
 /* Mobile responsiveness improvements */
 @media (max-width: 768px) {
+    body {
+    background-size: 120% auto;
+    background-position: right top;
+  }
+
   h2 {
     font-size: xl;
   }
@@ -92,6 +80,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    body {
+    background-size: 150% auto;
+    background-position: right top;
+  }
   h1 {
     font-size: small;
   }

@@ -1,6 +1,11 @@
 /* main paragraph of text */
+.about {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
 .aboutText {
-  margin: 50px;
   background-color: var(--whiteOpaque);
   border-radius: 30px;
   color: var(--darkBlack);
@@ -9,7 +14,8 @@
   position: relative;
   margin: 20px;
   bottom: 300px;
-  padding: 40px;
+  padding: 0 10%;
+  max-width: 800px;
 }
 
 
@@ -29,5 +35,17 @@
   right: 120px;
   margin: 20px;
   width: 300px;
+}
+.socials {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  justify-content: center;
+  bottom: 100px;
+}
 
+@media (max-width: 768px) {
+  .aboutMeText {
+    font-size: smaller;
+  }
 }

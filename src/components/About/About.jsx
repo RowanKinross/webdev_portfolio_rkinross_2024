@@ -5,8 +5,8 @@ import Home from '../Home/Home'
 
 function About() {
   return (
-    <div className='about'>
-      <div className="container text-center">
+    <div className='about '>
+      <div className="container text-center flexColumn">
         <div className='row'>
 
           <Home></Home>
@@ -31,6 +31,12 @@ function About() {
               As technology evolves, I am focused on leveraging computational tools to drive meaningful progress. My goal is to use my versatility across software, design, and data to contribute to a more sustainable future, utilizing evidence-based insights to support social enterprise and environmental action.
               </p>
             </div>
+          <div className='socials'>
+            <a href="https://www.linkedin.com/in/rowan-kinross-512940284/" target="_blank" ><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/RowanKinross" target="_blank" ><i className="fa-brands fa-github"></i></a>
+            <a href="" target="_blank" ><i className="fa-solid fa-file"></i></a>
+            <a href='mailto:rowankinross@yahoo.co.uk'><i className="fa-solid fa-envelope"></i></a>
+          </div>
           </div>
         </div>
       </div>

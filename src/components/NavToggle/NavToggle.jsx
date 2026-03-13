@@ -13,7 +13,7 @@ function NavToggle() {
   const buttonLabel = location.pathname === "/portfolio" ? "// ABOUT" : "// PORTFOLIO";
 
   return (
-    <button className="navToggle" onClick={handleToggle}>
+    <button className="navToggle headerTitle" onClick={handleToggle}>
       {buttonLabel}
     </button>
   );

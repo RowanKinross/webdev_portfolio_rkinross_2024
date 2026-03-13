@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className='header'>
       <div className='headerContainer'>
-        <h1>
+        <h1 className='headerTitle'>
         // ROWAN KINROSS
         </h1>
         <NavToggle />
