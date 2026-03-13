@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Main leaf shape -->
+  <path fill="#228B22" d="M16 4C10 4 5 9 5 15s5 11 11 11c2 0 4-1 5-2 1-1 2-3 2-5 0-6-3-11-7-15z"/>
+  <!-- Leaf vein -->
+  <path fill="#1B5E20" d="M16 4c4 4 7 9 7 15-1-4-3-8-7-11V4z"/>
+  <!-- Stem -->
+  <rect fill="#4A5D23" x="15" y="24" width="2" height="4" rx="1"/>
+</svg>
