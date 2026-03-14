@@ -98,6 +98,7 @@ const Carousel = ({ projects }) => {
             <CarouselCard key={project.id} active={activeIndex === i}>
               <div className='carousel-card-content' style={{backgroundImage: `url("${project.image}")`}}>
                 <div className='carousel-card-title'>{project.title}</div>
+                <div className='carousel-card-description'>{project.description}</div>
                 <div className='carousel-card-links'>
                   {project.github && (
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className='project-link github-link'>
