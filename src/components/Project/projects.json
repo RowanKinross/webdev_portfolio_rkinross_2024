@@ -2,7 +2,7 @@
     {
     "id": 1,
     "title": "Bertha's Admin App",
-    "description": "Administrative dashboard for managing inventory and orders with real-time updates",
+    "description": "Bespoke administrative dashboard to centralise inventory, production, and sales tracking.",
     "image":
       "/Berthas_Admin_App.png",
     "deployed": "https://berthas-frozen-admin.netlify.app/",
@@ -11,7 +11,7 @@
     {
     "id": 2,
     "title": "APIDNA ",
-    "description": "Tool for comparing and analyzing Postman API collections with detailed reporting",
+    "description": "Technical validation tool engineered to benchmark Large Language Model (LLM) accuracy and automate data comparison.",
     "image":
       "/apidna_demo_app.png",
     "deployed": "https://compare-postman-collection.netlify.app/",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Spatial Morphology",
-    "description": "Geographic analysis project using QGIS for spatial data visualization",
+    "description": "Geospatial analysis project utilising QGIS to model accessibility and shortest route data for urban design proposals",
     "image":
       "/QGIS_thumbnail.png",
     "deployed": "",
@@ -30,7 +30,7 @@
   {
     "id": 4,
     "title": "Applause Meter",
-    "description": "Custom hardware and software system that maps analog sound signals into digital outputs using signal processing and Arduino C++",
+    "description": "Custom hardware and software system that maps analogue sound signals into digital outputs, visualised across six mimic-filament lightbulbs using signal processing and Arduino C++",
     "image":
       "/applause_meter.jpg",
     "deployed": "",
@@ -39,7 +39,7 @@
   {
     "id": 5,
     "title": "AnswerSphere",
-    "description": "Collaborative Q&A platform for knowledge sharing and community discussions",
+    "description": "AI-integrated knowledge platform leveraging OpenAI’s API to transform user queries into structured insights through custom prompt engineering.",
     "image":
       "/answersphere-screencapture-square.png",
     "deployed": "https://answersphere.netlify.app/",
@@ -48,7 +48,7 @@
   {
     "id": 6,
     "title": "Team Profile Generator",
-    "description": "Node.js application for generating professional team profile HTML pages",
+    "description": "Node.js command-line application that automates the generation of professional team directories using OOP principles.",
     "image":
       "/team_profile_gen.png",
     "deployed": "",
@@ -57,7 +57,7 @@
   {
     "id": 7,
     "title": "Earworm Extractor",
-    "description": "Music search application to help identify and discover songs stuck in your head",
+    "description": "Music search application to help identify and remove the songs stuck in your head",
     "image":
       "/earworm_extractor.png",
     "deployed": "https://rowankinross.github.io/music_searcher_web_app/",
@@ -84,7 +84,7 @@
   {
     "id": 10,
     "title": "Trivia Quiz",
-    "description": "Interactive quiz application with timer functionality and score tracking",
+    "description": "Interactive quiz application with timer functionality and persistent score tracking",
     "image":
       "/web-API-code-quiz-demo.png",
     "deployed": "https://rowankinross.github.io/web-APIs-code-quiz/",
