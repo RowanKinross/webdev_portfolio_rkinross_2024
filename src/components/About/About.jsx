@@ -32,10 +32,10 @@ function About() {
               </p>
             </div>
           <div className='socials'>
-            <a href="https://www.linkedin.com/in/rowan-kinross-512940284/" target="_blank" ><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://linkedin.com/in/rowan-kinross" target="_blank" ><i className="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/RowanKinross" target="_blank" ><i className="fa-brands fa-github"></i></a>
-            <a href="" target="_blank" ><i className="fa-solid fa-file"></i></a>
-            <a href='mailto:rowankinross@yahoo.co.uk'><i className="fa-solid fa-envelope"></i></a>
+            <a href="/RKinross_DataScience_CV_2026.pdf" target="_blank"><i className="fa-solid fa-file"></i></a>
+            <a href='mailto:rowan.kinross@outlook.com'><i className="fa-solid fa-envelope"></i></a>
           </div>
           </div>
         </div>

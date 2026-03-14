@@ -16,7 +16,7 @@
   align-items: center;
   padding: 8%;
   margin-top: 300px;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .statement {
@@ -48,6 +48,7 @@
   .brandStatement{
     padding: 30% 0 10% 0;
     margin-top: 0px;
+    font-size: 11px;
   }
   .typingTitle {
     font-size: 13px;

@@ -65,7 +65,6 @@ body {
 /* Mobile responsiveness improvements */
 @media (max-width: 768px) {
     body {
-    background-size: 120% auto;
     background-position: right top;
   }
 
@@ -80,10 +79,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    body {
-    background-size: 150% auto;
-    background-position: right top;
-  }
   h1 {
     font-size: small;
   }

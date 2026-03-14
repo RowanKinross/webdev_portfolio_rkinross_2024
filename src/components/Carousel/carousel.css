@@ -37,6 +37,11 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-card:hover .carousel-card-content::before  {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .carousel-card:not(.active) .carousel-card-content {
@@ -45,10 +50,36 @@
 }
 .carousel-card.active .carousel-card-title {
   opacity: 1;
-  transform: translateY(-30px);
+  transform: translateY(40px);
 }
 
-.carousel-card:not(.active) .carousel-card-title {
+.carousel-card:hover .carousel-card-title {
+  transform: translateY(-10px);
+}
+
+.carousel-card-description {
+  padding: 8px 10px;
+  padding-left: 35px;
+  padding-right: 45px;
+  max-width: 340px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 8px;
+  opacity: 0;
+}
+
+.carousel-card:hover .carousel-card-description {
+  opacity: 1;
+  transition: all 0.8s ease;
+  transition-delay: 0.5s;
+}
+
+.carousel-card:not(.active) .carousel-card-title, .carousel-card:not(.active) .carousel-card-description {
   opacity: 0;
   transform: translateY(+20px);
 }
