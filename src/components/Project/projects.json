@@ -47,6 +47,15 @@
   },
   {
     "id": 6,
+    "title": "ReadMe Generator",
+    "description": "Command-line tool for generating professional README files for repositories",
+    "image":
+      "/readme_gen_demo.png",
+    "deployed": "",
+    "github": "https://github.com/RowanKinross/readMe_generator_rkinross"
+  },
+  {
+    "id": 7,
     "title": "Team Profile Generator",
     "description": "Node.js command-line application that automates the generation of professional team directories using OOP principles.",
     "image":
@@ -55,22 +64,13 @@
     "github": "https://github.com/RowanKinross/OOP_Team_Profile_Generator_RK"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Earworm Extractor",
     "description": "Music search application to help identify and remove the songs stuck in your head",
     "image":
       "/earworm_extractor.png",
     "deployed": "https://rowankinross.github.io/music_searcher_web_app/",
     "github": "https://github.com/RowanKinross/music_searcher_web_app"
-  },
-  {
-    "id": 8,
-    "title": "ReadMe Generator",
-    "description": "Command-line tool for generating professional README files for repositories",
-    "image":
-      "/readme_gen_demo.png",
-    "deployed": "",
-    "github": "https://github.com/RowanKinross/readMe_generator_rkinross"
   },
   {
     "id": 9,
