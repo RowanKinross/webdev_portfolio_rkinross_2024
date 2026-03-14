@@ -29,6 +29,15 @@
   },
   {
     "id": 4,
+    "title": "Applause Meter",
+    "description": "Custom hardware and software system that maps analog sound signals into digital outputs using signal processing and Arduino C++",
+    "image":
+      "/applause_meter.jpg",
+    "deployed": "",
+    "github": ""
+  },
+  {
+    "id": 5,
     "title": "AnswerSphere",
     "description": "Collaborative Q&A platform for knowledge sharing and community discussions",
     "image":
@@ -37,7 +46,7 @@
     "github": "https://github.com/nyitrai87/answersphere"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Team Profile Generator",
     "description": "Node.js application for generating professional team profile HTML pages",
     "image":
@@ -46,7 +55,7 @@
     "github": "https://github.com/RowanKinross/OOP_Team_Profile_Generator_RK"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Earworm Extractor",
     "description": "Music search application to help identify and discover songs stuck in your head",
     "image":
@@ -55,7 +64,7 @@
     "github": "https://github.com/RowanKinross/music_searcher_web_app"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "ReadMe Generator",
     "description": "Command-line tool for generating professional README files for repositories",
     "image":
@@ -64,7 +73,7 @@
     "github": "https://github.com/RowanKinross/readMe_generator_rkinross"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Weather Dashboard",
     "description": "Interactive weather application with multi-city forecasts and local storage",
     "image":
@@ -73,7 +82,7 @@
     "github": "https://github.com/RowanKinross/rkinross_weather_dashboard"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Trivia Quiz",
     "description": "Interactive quiz application with timer functionality and score tracking",
     "image":
